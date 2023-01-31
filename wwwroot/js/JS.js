@@ -1,4 +1,5 @@
-﻿function calcSum() {
+﻿////create function to calculate the final grade
+function calcSum() {
     let num1 = $("#assignments").val();
     let num2 = $("#group").val();
     let num3 = $("#quizzes").val();
@@ -6,6 +7,8 @@
     let num5 = $("#final").val();
     let num6 = $("#intex").val();
     let sum = Number(num1) + Number(num2) + Number(num3) + Number(num4) + Number(num5) + Number(num6);
+
+    ////if statement to determine the letter grade
 
     if (sum >= 94) {
         document.getElementById('sum').innerHTML = sum + '% A';
