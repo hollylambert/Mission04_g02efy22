@@ -1,0 +1,47 @@
+﻿body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+label {
+    font-size: 20px;
+    color: darkblue;
+    width: 150px;
+    display: inline-block;
+}
+
+img {
+    float: left;
+    width: 100px;
+    height: 500px;
+}
+
+textarea {
+    font-size: 20px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+h1 {
+    position: relative;
+    left: 40%;
+}

@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        .content {
+            max-width: 1000px;
+            margin: auto;
+        }
+    </style>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+    <title>A Little Bit About Me</title>
+    <link rel="icon" type="image/x-icon" href="/images/smiley.jpg">
+</head>
+<body>
+    <h1>Holly Lambert</h1>
+    <div>
+        <div class="column">
+            <img src="images/image000000.JPG" style="width: 100%" />
+        </div>
+        <div class="column">
+            <img src="images/IMG-0044.jpg" style="width: 100%" />
+        </div>
+        <div class="column">
+            <img src="images/DC0A2347-87D7-4CE4-8BB6-113ABAC6B50B.JPG" style="width: 100%" />
+        </div>
+    </div>
+    <br />
+    <br />
+    <p class="content">
+        As a student in 413 Enterprise Application Development, I have a goal in mind for what I hope to get
+        out of the course. I am looking to build a strong foundation in web development,
+        with a focus on creating dynamic and interactive applications using Microsoft technologies. I am
+        also interested in learning how to use the C# programming language to create efficient and effective
+        code, and how to work with databases and other back-end systems to store and retrieve data. Ultimately,
+        I hope to leave the class with a deep understanding of ASP.NET and C#, and the skills necessary to
+        put these technologies to use in my future projects and career.
+    </p>
+    <br />
+    <p>My Top 3 Picks: </p>
+    <ol>
+        <li>Database Management</li>
+        <li>Project Management</li>
+        <li>Software Development</li>
+    </ol>
+
+    <h2>GRADE CALCULATOR (enter in final %): </h2>
+    <form>
+        <label>Assignments: </label>
+        <input type="number" id="assignments" /> / 50% <br />
+        <label>Group Project: </label>
+        <input type="number" id="group" /> / 10%<br />
+        <label>Quizzes: </label>
+        <input type="number" id="quizzes" /> / 10%<br />
+        <label>Midterm Exam: </label>
+        <input type="number" id="midterm" /> / 10%<br />
+        <label>Final Exam: </label>
+        <input type="number" id="final" /> / 10%<br />
+        <label>INTEX: </label>
+        <input type="number" id="intex" /> / 10%<br /><br />
+        <button type="button" onclick="calcSum()">Calculate</button>
+        <br />
+        <label>Final Grade: </label>
+        <p id="sum"></p>
+    </form>
+    <!--<label>Final Grade: </label>
+    <p id="sum"></p>-->
+    <br />
+    <br />
+    <br />
+
+
+    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/JS.js"></script>
+</body>
+</html>
